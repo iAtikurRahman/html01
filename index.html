@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>hello world</title>
-    
-    <!-- MS Tile - for Microsoft apps-->
-<meta name="msapplication-TileImage" content="https://www.kasandbox.org/programming-images/avatars/leaf-green.png">    
-
-<!-- fb & Whatsapp -->
-
-<!-- Site Name, Title, and Description to be displayed -->
-<meta property="og:site_name" content="MY testing page">
-<meta property="og:title" content="Its a testing perpose">
-<meta property="og:description" content="it about my tesing perpose that i can show it for dev">
-
-<!-- Image to display -->
-<!-- Replace   «example.com/image01.jpg» with your own -->
-<meta property="og:image" itemprop="image" content="https://www.kasandbox.org/programming-images/avatars/purple-pi-pink.png">
-
-<!-- No need to change anything here -->
-<meta property="og:type" content="website" />
-<meta property="og:image:type" content="image/jpeg">
-
-<!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
-<meta property="og:image:width" content="300">
-<meta property="og:image:height" content="300">
-
-<!-- Website to visit when clicked in fb or WhatsApp-->
-<meta property="og:url" content="https://iatikurrahman.github.io/html01/">
-    
-    <!-- Your CSS Styles -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    
-    <!-- Your JavaScript Scripts -->
-    <script src="script.js"></script>
+  <title>Twenty Images</title>
+  <style>
+    /* Style to arrange images in a grid */
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Adjust the number to change columns */
+      gap: 10px; /* Adjust the gap between images */
+    }
+    .image-grid img {
+      width: 400px; /* Set a fixed width */
+      height: 400px; /* Set a fixed height */
+      object-fit: cover; /* Maintain aspect ratio without distortion */
+    }
+  </style>
 </head>
 <body>
-    <h4>Hello World</h4>
+  <div class="image-grid">
+    <!-- Replace the placeholder URLs with your image URLs -->
+    <img src="./images/image01.jpg" alt="Image 1">
+    <img src="./images/image02.jpg" alt="Image 2">
+    <img src="./images/image03.jpg" alt="Image 3">
+    <img src="./images/image04.jpg" alt="Image 4">
+    <img src="./images/image05.jpg" alt="Image 5">
+    <img src="./images/image06.jpg" alt="Image 6">
+    <img src="./images/image07.jpg" alt="Image 7">
+    <img src="./images/image08.jpg" alt="Image 8">
+    <img src="./images/image09.jpg" alt="Image 9">
+    <img src="./images/image10.jpg" alt="Image 10">
+    <img src="./images/image11.jpg" alt="Image 11">
+    <img src="./images/image12.jpg" alt="Image 12">
+    <img src="./images/image13.jpg" alt="Image 13">
+    <img src="./images/image14.jpg" alt="Image 14">
+    <img src="./images/image15.jpg" alt="Image 15">
+    <img src="./images/image16.jpg" alt="Image 16">
+    <img src="./images/image17.jpg" alt="Image 17">
+    <img src="./images/image18.jpg" alt="Image 18">
+    <img src="./images/image19.jpg" alt="Image 19">
+    <img src="./images/image20.jpg" alt="Image 20">
+    <img src="./images/image21.jpg" alt="Image 21">
+    <img src="./images/image22.jpg" alt="Image 22">
+    <img src="./images/image23.jpg" alt="Image 23">
+    <img src="./images/image24.jpg" alt="Image 24">
+    <img src="./images/image25.jpg" alt="Image 25">
+    <img src="./images/image26.jpg" alt="Image 26">
+    <img src="./images/image27.jpg" alt="Image 27">
+    
+  </div>
 </body>
 </html>
